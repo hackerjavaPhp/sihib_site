@@ -1,0 +1,290 @@
+/*+++++++++++options++++++++++*/
+
+@media screen and (max-width: 1174px)
+{
+	/* id block */
+	/*#Services ,*/
+	/*#about_me ,*/
+	/*#latest_works ,*/
+    /*#our_work ,*/
+	/*#Recent_blog_posts ,*/
+    /*#sponsors ,*/
+    /*#reviews ,*/
+    // #form_address ,
+    footer
+    {
+    	display: none;
+    }
+}
+
+/*+++++++++++header+++++++++++*/
+
+@media screen and (max-width: 1174px)
+{
+	.header_logo {margin-left: 18px;}
+
+	.header_menu {margin-right:18px;}
+}
+
+@media screen and (max-width: 780px)
+{
+	.header_menu {margin-right: 0;}
+
+	.header_menu li
+	{
+		font-size: 14px;
+		margin-right: 18px;
+		margin-top: 5px;
+	}
+}
+
+@media screen and (max-width: 652px)
+{
+	.header_logo , .header_menu
+	{
+		display: block;
+		float: none;
+		display: block;
+		text-align: center;
+	}
+
+	.header_logo
+	{
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 437px)
+{
+	.header_menu {margin-left: 18px;}
+	.header_logo {font-size: 74px;}
+}
+
+/*+++++++++++#Services+++++++++++++*/
+
+@media screen and (max-width: 1174px)
+{
+	.Services_plus_block:first-child , .Services_plus_block
+	{
+	    width: 558px;
+	    float: none;
+	    margin: 0 auto;
+	    margin-bottom: 71px;
+	}
+
+	.Services_plus_block:nth-child(3) {margin-bottom: 0;}
+
+	.Services_plus_block img {
+    	margin-left: 235px;
+	}
+}
+
+@media screen and (max-width: 572px)
+{
+	.Services_plus_block:first-child , .Services_plus_block
+	{
+	    width: 100%;
+	    float: none;
+	    margin: 0 auto;
+	    margin-bottom: 71px;
+	    text-align: center;
+	}
+
+	.Services_plus_block img {
+    	display: inline-block;
+    	margin-left:0;
+	}
+}
+
+/*+++++++++++#about_me+++++++++++*/
+
+@media screen and (max-width: 1174px)
+{
+	#about_me
+	{
+		text-align: center;
+	}
+
+	.About_p, .About_p_2
+	{
+		max-width: 100%;
+		float: none;
+		font-size: 14px;
+		margin-bottom: 73px;
+		text-align: center;
+		margin: 30px 50px;
+	}
+
+	.autor, .autor_ot
+	{
+		float: none;
+		margin-right: 0;
+		display: inline-block;
+	}
+}
+
+
+@media screen and (max-width: 806px)
+{
+	.submit_about
+	{
+		opacity: 1;
+		background:rgba(62,62,62,.4);
+	}
+}
+
+@media screen and (max-width: 572px)
+{
+	.About_p, .About_p_2
+	{
+		margin: 30px 0;
+	}
+}
+
+/*++++++++#latest_works++++++++*/
+
+@media screen and (max-width: 1174px)
+{
+	.portfolio
+	{
+		text-align: center;
+	}
+
+
+	.portfolio_photo, 
+	.portfolio_photo_ot
+	{
+		margin: 0;
+		float: none;
+		display: inline-block;
+	}
+
+	.veiv_port
+	{
+		opacity: 1;
+		background: rgba(192,48,28,0.7);
+	}
+
+
+	.portfolio_photo_ot:nth-child(9)
+	{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 460px)
+{
+	
+
+	.portfolio_photo_ot , .portfolio_photo
+	{
+		width: 100%;
+		 height: auto;
+		 margin-top: 10px;
+	}
+
+	.portfolio_photo_ot img ,
+	.portfolio_photo img
+	{
+		 width: 100%;
+		 height: auto;
+	}
+
+	
+
+}
+
+/*++++++++#our_work++++++++*/
+
+@media screen and (max-width: 740px){#our_work{display: none;}}
+
+
+
+/*++++++++#Recent_blog_posts++++++++*/
+
+@media screen and (max-width: 1174px)
+{
+	.blog_news img ,
+	.blog_news .article 
+	{
+		display: inline-block;
+		float: none;
+	     width: 602px;
+	}
+
+	.article{padding-left: 0; }
+}
+
+@media screen and (max-width: 605px)
+{
+	.blog_news img ,
+	.blog_news .article{max-width: 100%;}
+}
+/*#sponsors*/
+
+@media screen and (max-width: 1174px)
+{
+	#sponsors img
+    {
+	    display: inline-block;
+	    margin: 5px;
+	}
+}
+
+/*reviews*/
+
+/*good adaptive in block*/
+
+/*#form_address */
+
+
+@media screen and (max-width: 992px)
+{	
+	#form_address form
+	{
+		max-width: 730px;
+		float: none;
+		display: inline-block;
+	}
+
+	
+/* info all */
+	
+	.info
+		{
+			float: none;
+			display: inline-block;
+			margin-top:100px
+		}
+
+}
+
+@media screen and (max-width: 773px)
+{
+		#form_address .inp_norm{width: 98%;}
+
+		form textarea{width: 99%;}
+
+		#form_address form {
+		    max-width: 81%;
+		    float: none;
+		    display: inline-block;
+		}
+
+		.inp_norm:first-child, .inp_norm:nth-child(3) 
+		{
+    		margin-right: 20px;
+		}
+
+		form input[type = "submit"]
+		{
+			margin-left: 20px;
+		}
+
+		.info
+		{
+			float: none;
+			display: inline-block;
+			margin-top:100px;
+		}
+}
